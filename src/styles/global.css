@@ -1,0 +1,29 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+}
+
+:root{
+  --primary:#6F4E37;
+  --secondary:#A67C52;
+  --accent:#D8C3A5;
+  --background:#F8F4EE;
+  --card:#FFFFFF;
+  --text:#3E2723;
+  --gold:#C8A97E;
+
+  --shadow:
+  0 10px 40px rgba(111,78,55,.12);
+}
+
+body{
+  background:var(--background);
+  color:var(--text);
+  overflow-x:hidden;
+}
+
+section{
+  padding:80px 10%;
+}

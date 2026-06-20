@@ -1,0 +1,99 @@
+.analytics-page{
+
+  min-height:100vh;
+
+  background:#F8F4EE;
+
+  padding:120px 50px;
+}
+
+.analytics-page h1{
+
+  text-align:center;
+
+  color:#6F4E37;
+
+  margin-bottom:10px;
+}
+
+.analytics-subtitle{
+
+  text-align:center;
+
+  color:#666;
+
+  margin-bottom:40px;
+}
+
+.chart-card{
+
+  background:white;
+
+  padding:30px;
+
+  border-radius:20px;
+
+  box-shadow:
+  0 10px 30px rgba(0,0,0,0.08);
+
+  max-width:900px;
+
+  margin:auto;
+}
+
+.analytics-summary{
+
+  margin-top:40px;
+
+  display:grid;
+
+  grid-template-columns:
+  repeat(auto-fit,minmax(220px,1fr));
+
+  gap:20px;
+
+  max-width:900px;
+
+  margin-left:auto;
+
+  margin-right:auto;
+}
+
+.summary-box{
+
+  background:white;
+
+  padding:25px;
+
+  border-radius:18px;
+
+  text-align:center;
+
+  box-shadow:
+  0 10px 30px rgba(0,0,0,0.08);
+}
+
+.summary-box h3{
+
+  color:#6F4E37;
+
+  margin-bottom:10px;
+}
+
+.summary-box p{
+
+  color:#444;
+
+  font-size:18px;
+
+  font-weight:600;
+}
+
+@media(max-width:768px){
+
+  .analytics-page{
+
+    padding:100px 20px;
+  }
+
+}

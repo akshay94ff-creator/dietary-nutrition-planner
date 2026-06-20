@@ -1,0 +1,80 @@
+.meal-page{
+
+  min-height:100vh;
+
+  background:#F8F4EE;
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+
+  padding:120px 20px;
+}
+
+.meal-card{
+
+  width:550px;
+
+  background:white;
+
+  padding:40px;
+
+  border-radius:25px;
+
+  box-shadow:0 15px 40px rgba(0,0,0,0.08);
+}
+
+.meal-card h1{
+
+  text-align:center;
+
+  color:#6F4E37;
+
+  margin-bottom:25px;
+}
+
+.meal-card label{
+
+  display:block;
+
+  margin-bottom:10px;
+
+  color:#6F4E37;
+
+  font-weight:600;
+}
+
+.meal-card select{
+
+  width:100%;
+
+  padding:15px;
+
+  border-radius:12px;
+
+  border:1px solid #ddd;
+
+  margin-bottom:25px;
+}
+
+.meal-results h2{
+
+  color:#6F4E37;
+
+  margin-bottom:15px;
+}
+
+.meal-item{
+
+  background:#F1E7D8;
+
+  padding:15px;
+
+  border-radius:12px;
+
+  margin-bottom:12px;
+
+  border-left:5px solid #6F4E37;
+}

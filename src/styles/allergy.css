@@ -1,0 +1,65 @@
+.allergy-page{
+
+  min-height:100vh;
+
+  background:#F8F4EE;
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+
+  padding:120px 20px;
+}
+
+.allergy-card{
+
+  width:500px;
+
+  background:white;
+
+  padding:40px;
+
+  border-radius:25px;
+
+  box-shadow:0 15px 40px rgba(0,0,0,0.08);
+}
+
+.allergy-card h1{
+
+  text-align:center;
+
+  color:#6F4E37;
+
+  margin-bottom:25px;
+}
+
+.allergy-card input{
+
+  width:100%;
+
+  padding:15px;
+
+  border-radius:12px;
+
+  border:1px solid #ddd;
+
+  margin-bottom:20px;
+}
+
+.allergy-result{
+
+  background:#F1E7D8;
+
+  padding:20px;
+
+  border-radius:15px;
+
+  text-align:center;
+}
+
+.allergy-result h2{
+
+  color:#6F4E37;
+}
